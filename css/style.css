@@ -1,0 +1,141 @@
+/*reseteo*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*pagina de quienes somos*/
+
+.club {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.textoqs {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: fantasy;
+    text-align: justify;
+}
+
+/*pagina contacto*/
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*estilo de la tabla de fechas*/
+
+.fechas,
+th,
+td {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    background-color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.fechas,
+th {
+    background-color: crimson;
+}
+
+
+/*galeria de imagenes y videos*/
+
+.img {
+    width: 100%;
+}
+
+.fotos { 
+    display: flex;
+    padding: 6px;
+
+}
+.colfotos { 
+    flex:25%;
+    padding: 6px;
+}
+
+.colfotos img { 
+    margin-top: 5px;
+}
+
+
+
+
+.video {
+    padding: 10px;
+    text-align: center;
+    border-style: outset;
+}
+
+
+/*texto inicial de cada html*/
+.inicio {
+    font-size: 50px;
+    margin-top: 81px;
+    background-color: coral;
+    text-align: center;
+}
+
+/*estilos para footer*/
+
+.footertext {
+    background-color: rgba(0, 0, 255, 0.459);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logoins {
+    background-color: rgba(1, 1, 11, 0.459);
+    text-align: center;
+}
+
+
+
+
+
+/*estilo tabla categorias*/
+.categorias {
+    padding: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.tabcat {
+    background-color: rgba(137, 43, 226, 0);
+    border: none;
+}
+
+.catfoto {
+    border-radius: 20px;
+}
+
+/*fondo de pagina con imagen*/
+body {
+    background-image: url(../multimedia/fondo.jpg);
+    background-attachment: fixed;
+}
